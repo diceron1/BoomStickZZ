@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BoomStick",
+			"Path": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BoomStickEditor",
+			"Path": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStickEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

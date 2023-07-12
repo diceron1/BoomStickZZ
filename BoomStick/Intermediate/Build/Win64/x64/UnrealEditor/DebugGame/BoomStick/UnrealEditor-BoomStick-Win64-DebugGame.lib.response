@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BoomStick-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\BoomStickEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\BoomStick.init.gen.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\Gun.gen.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\MainCharacter.gen.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\BoomStick.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\Gun.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\MainCharacter.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\Default.rc2.res"
+/OUT:"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\BoomStick\UnrealEditor-BoomStick-Win64-DebugGame.lib"

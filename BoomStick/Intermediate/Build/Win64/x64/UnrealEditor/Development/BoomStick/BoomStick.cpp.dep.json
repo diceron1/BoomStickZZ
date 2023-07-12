@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\c++\\boomstickzz\\boomstick\\source\\boomstick\\boomstick.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\c++\\boomstickzz\\boomstick\\intermediate\\build\\win64\\x64\\boomstickeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\c++\\boomstickzz\\boomstick\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\boomstick\\definitions.boomstick.h",
+            "d:\\c++\\boomstickzz\\boomstick\\source\\boomstick\\boomstick.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

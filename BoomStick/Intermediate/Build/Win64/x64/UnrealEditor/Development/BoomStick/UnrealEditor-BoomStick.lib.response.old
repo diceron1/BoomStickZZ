@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BoomStick.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\BoomStickEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\Development\BoomStick\BoomStick.init.gen.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\Development\BoomStick\MainCharacter.gen.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\Development\BoomStick\BoomStick.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\Development\BoomStick\MainCharacter.cpp.obj"
+"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\Development\BoomStick\Default.rc2.res"
+/OUT:"D:\C++\BoomStickZZ\BoomStick\Intermediate\Build\Win64\x64\UnrealEditor\Development\BoomStick\UnrealEditor-BoomStick.lib"

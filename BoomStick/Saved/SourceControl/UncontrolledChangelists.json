@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/C++/BoomStickZZ/BoomStick/Content/BP_MainCharacter.uasset",
+				"D:/C++/BoomStickZZ/BoomStick/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
+				"D:/C++/BoomStickZZ/BoomStick/Content/BP_Gun.uasset",
+				"D:/C++/BoomStickZZ/BoomStick/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uasset",
 				"R:/ProjectBoomstick/BoomStick/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}

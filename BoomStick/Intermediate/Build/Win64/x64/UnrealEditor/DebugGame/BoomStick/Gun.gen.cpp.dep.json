@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\c++\\boomstickzz\\boomstick\\intermediate\\build\\win64\\unrealeditor\\inc\\boomstick\\uht\\gun.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\c++\\boomstickzz\\boomstick\\intermediate\\build\\win64\\x64\\boomstickeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\c++\\boomstickzz\\boomstick\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\boomstick\\definitions.boomstick.h",
+            "d:\\c++\\boomstickzz\\boomstick\\source\\boomstick\\gun.h",
+            "d:\\c++\\boomstickzz\\boomstick\\intermediate\\build\\win64\\unrealeditor\\inc\\boomstick\\uht\\gun.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

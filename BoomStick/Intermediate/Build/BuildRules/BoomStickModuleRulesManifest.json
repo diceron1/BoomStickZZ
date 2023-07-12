@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\BoomStick.Build.cs",
+		"D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick.Target.cs",
+		"D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStickEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

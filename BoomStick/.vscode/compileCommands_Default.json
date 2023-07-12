@@ -1,0 +1,58 @@
+[
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\BoomStick.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\BoomStick.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\BoomStick.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\Gun.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\Gun.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\MainCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\C++\\BoomStickZZ\\BoomStick\\Source\\BoomStick\\MainCharacter.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\C++\\BoomStickZZ\\BoomStick\\.vscode\\compileCommands_Default\\BoomStick.261.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]
