@@ -2,6 +2,10 @@
 
 
 #include "MainCharacter.h"
+#include "Animation/AnimInstance.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/InputComponent.h"
 #include "Gun.h"
 
 // Sets default values
@@ -10,6 +14,14 @@ AMainCharacter::AMainCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	GetCharacterMovement()->MaxWalkSpeed = 300;
+
+	// Create a CameraComponent	
+	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
+	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
+	FirstPersonCameraComponent->SetRelativeLocation(FVector(30.44, 1.75, 64)); // Position the camera
+	FirstPersonCameraComponent->bUsePawnControlRotation = true;
+
 }
 
 // Called when the game starts or when spawned
@@ -17,9 +29,9 @@ void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
-	Gun->AttachToComponent(Root);
-	Gun->SetOwner(this);
+	//Gun = GetWorld()->SpawnActor<AGun>(GunClass);
+	//Gun->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepWorldTransform);
+	//Gun->SetOwner(this);
 	
 }
 
@@ -40,7 +52,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
+	PlayerInputComponent->BindAxis("Sprint", this, &AMainCharacter::Sprint);
 
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), EInputEvent::IE_Pressed, this, &AMainCharacter::Shoot);
 
 	//Gamepad Stick (Controller) Bindings
@@ -85,7 +99,30 @@ void AMainCharacter::LookRightRate(float Val)
 
 void AMainCharacter::Shoot()
 {
-	Gun->PullTrigger();
+	if(Gun)
+	{
+		Gun->PullTrigger();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Gun is null"));
+	}
+}
+
+void AMainCharacter::Sprint(float Val)
+{
+	
+	if(Val >= 1.0f)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("SPRINT"));
+		GetCharacterMovement()->MaxWalkSpeed = 800;//->MaxWalkSpeed = 1200.f;
+	}
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed = 300;
+	}
+	
+
 }
 
 

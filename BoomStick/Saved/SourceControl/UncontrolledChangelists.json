@@ -7,8 +7,10 @@
 			"files": [
 				"D:/C++/BoomStickZZ/BoomStick/Content/BP_MainCharacter.uasset",
 				"D:/C++/BoomStickZZ/BoomStick/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
-				"D:/C++/BoomStickZZ/BoomStick/Content/BP_Gun.uasset",
 				"D:/C++/BoomStickZZ/BoomStick/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uasset",
+				"D:/C++/BoomStickZZ/BoomStick/Content/Weapon/BP_Gun.uasset",
+				"D:/C++/BoomStickZZ/BoomStick/Content/Military/Demo_content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset",
+				"D:/C++/BoomStickZZ/BoomStick/Content/BP_Gun.uasset",
 				"R:/ProjectBoomstick/BoomStick/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}

@@ -3,11 +3,17 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Character.h"
 #include "MainCharacter.generated.h"
 
 //Declare classes rather than including header files for faster compile times. 
 class AGun;
+class UInputComponent;
+class USkeletalMeshComponent;
+class USceneComponent;
+class UCameraComponent;
+class UAnimMontage;
 
 UCLASS()
 class BOOMSTICK_API AMainCharacter : public ACharacter
@@ -17,6 +23,10 @@ class BOOMSTICK_API AMainCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMainCharacter();
+
+	/** First person camera */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UCameraComponent* FirstPersonCameraComponent;
 
 protected:
 	// APawn interface
@@ -36,13 +46,14 @@ public:
 
 private:
 
-UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere)
 	float RotationRate = 10;
 
 	void MoveForward(float Val);
 	void MoveRight(float Val);
 	void LookUpRate(float Val);
 	void LookRightRate(float Val);
+	void Sprint(float Val);
 
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<AGun> GunClass;

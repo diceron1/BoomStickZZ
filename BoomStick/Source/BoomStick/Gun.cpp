@@ -24,7 +24,7 @@ AGun::AGun()
 void AGun::PullTrigger()
 {
 	//TODO: VFX Spawn
-	
+	//Animate Gun Shot
 
 	HitScan();
 	
